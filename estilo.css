@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding: 20px;
+}
+body{
+    display: grid;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M69.01 379.37 a140.71 140.71 0 1 0 281.42 0 a140.71 140.71 0 1 0 -281.42 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M573.7908254796384 351.0361589846029L644.1465551683018 254.19980463956955 547.3102008232686 183.84407495090616 476.9544711346051 280.68042929593946z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M591.9072673831766 522.5758776520953L495.6880474896912 512.3701088549661 528.7370816655344 590.2287542063164z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M423.654%2c683.55C472.515%2c687.061%2c530.16%2c683.334%2c553.815%2c640.437C577.082%2c598.243%2c545.804%2c550.308%2c519.325%2c510.052C496.337%2c475.103%2c465.364%2c445.737%2c423.654%2c442.549C375.653%2c438.88%2c322.279%2c451.176%2c298.784%2c493.195C275.645%2c534.577%2c296.302%2c584.157%2c322.308%2c623.801C345.363%2c658.946%2c381.73%2c680.537%2c423.654%2c683.55' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1345.497%2c705.675C1388.089%2c705.333%2c1414.491%2c665.005%2c1436.292%2c628.414C1458.858%2c590.538%2c1485.215%2c546.237%2c1463.274%2c507.995C1441.28%2c469.661%2c1389.692%2c470.06%2c1345.497%2c470.163C1301.563%2c470.265%2c1250.835%2c470.61%2c1228.666%2c508.541C1206.384%2c546.665%2c1229.63%2c591.903%2c1252.143%2c629.891C1274.045%2c666.847%2c1302.54%2c706.02%2c1345.497%2c705.675' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M271.4 171.13 a184.8 184.8 0 1 0 369.6 0 a184.8 184.8 0 1 0 -369.6 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    color: #f9f9f9;
+}
+nav ul {
+    font-family: verdana;
+    background-color: rgb(0, 119, 255);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-flex;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: rgb(136, 191, 255);
+}
+
+/*Index*/
+#inicio {
+    color: rgb(255, 255, 255);
+    height: 70vh;
+    padding-top: 50px;
+}
+#inicio h2 {
+    font-family: verdana;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#inicio p {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+.container img{
+    height: 400px;
+    width: 400px;
+    padding-right: 20%;
+}
+/*Organizacion*/
+#organizacion {
+    color: rgb(255, 255, 255);
+    height: 70vh;
+    padding-top: 50px;
+}
+
+#organizacion h2 {
+    font-family: verdana;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#organizacion p {
+    font-family: verdana;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 25px;
+    text-align: left;
+}
+.container img {
+    padding-left: 50%;
+    width: fit-content;
+}
+/*Servicios*/
+#servicios {
+    color: rgb(255, 255, 255);
+    height: 70vh;
+    padding-top: 50px;
+}
+#servicios h2 {
+    font-family: verdana;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#servicios p {
+    font-family: verdana;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 15px;
+    text-align: left;
+}
+#servicios h3 {
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#servicios h4 {
+    padding: 3%;
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/*Contacto*/
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.container-form a i{
+    color: orange;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 12px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background: orange;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar{
+    background: rgb(0, 119, 255);
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
+footer p {
+    text-align: center;
+    padding: 50px;
+}
